@@ -61,7 +61,7 @@ You *could* store it in a database. But consider this:
 > Every time any user loads the homepage, the server checks what the banner says.
 
 That is **millions of database queries per minute** for one tiny string that almost never changes. Multiplied by millions of users, this becomes a serious performance problem — for one line of text.
-<!-- A database query takes 50–200ms. Redis takes < 1ms. -->
+A database query takes 50–200ms. Redis takes < 1ms.
 
 ---
 
@@ -189,3 +189,4 @@ This project is intentionally minimal for learning. A production version would i
 ---
 
 *Covers: Redis SET · GET · DEL · EXISTS · Key naming · Multi-server consistency · Why not Redux/DB/static · Real-world use cases*
+
