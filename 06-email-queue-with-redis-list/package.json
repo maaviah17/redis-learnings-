@@ -1,16 +1,16 @@
 {
-  "name": "04-login-otp-with-ttl",
+  "name": "06-email-queue-with-redis-list",
   "version": "1.0.0",
   "description": "",
   "license": "ISC",
   "author": "",
   "type": "module",
-  "main": "idnex.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "express": "^5.2.1",
-    "ioredis": "^5.11.0"
+    "ioredis": "^5.11.1"
   }
 }
